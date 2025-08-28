@@ -16,8 +16,8 @@ git init
 git remote add origin url_repositorio_remoto
 ```
 ## Nueva modificacion
-``
+```
 git add .
 git commit -m "mensaje"
-git push origin 
+git push origin master
 ```
