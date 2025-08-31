@@ -79,7 +79,33 @@ Descripcion
 Clic en Create pull request
 ```
 
+# ramas
+```
+ver  ramas git branch
 
+git branch hperez
+```
+# Cambiar de rama
+```
+git checkout -b hperez
 
+y agregamos los cambios git add .  git commit....
+```
 
+   # Subir la rama
+   ```
+   git push origen hperez
+   ```
+## se hace pull request y se hace el merge
+### los cambios se hiso en la rama hperez...
+#### para que en la rama master aparescan los cambios se hace  pull
+```
+git pull origin master
+```
 
+## o para tyraer los cambios de otra rama
+### estoy en rama master, 
+```
+tonses hago-  git merge hperez
+
+```

@@ -1,0 +1,44 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Slider */
+.carousel-item img {
+  height: 350px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .carousel-item img {
+    height: 450px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-item img {
+    height: 600px;
+  }
+}
+
+/* Servicios */
+#servicios .card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+#servicios .card:hover {
+  transform: translateY(-5px);
+}
+
+/* Portafolio */
+#portafolio img {
+  border-radius: 10px;
+}
